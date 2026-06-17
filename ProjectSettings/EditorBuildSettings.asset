@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lobby.unity
     guid: ed7decddf061ce24b87d0adb396b0998
+  - enabled: 1
+    path: Assets/Scenes/Savanna.unity
+    guid: c3bc405bba3fecf41a57e53975e8a3de
+  - enabled: 1
+    path: Assets/Scenes/Iced.unity
+    guid: 9a540410b9288864180891fa11cdffdb
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: d358d6547ff523147834b91e3368e79d
   m_configObjects: {}

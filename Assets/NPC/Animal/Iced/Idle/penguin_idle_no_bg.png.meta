@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: e4b1937076dcfed448890bb017cac72c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1502947065051585744
+    second: penguin_idle_no_bg_0
+  - first:
+      213: 982270991382765274
+    second: penguin_idle_no_bg_1
+  - first:
+      213: 5881138308626597063
+    second: penguin_idle_no_bg_2
+  - first:
+      213: 8897680992438789374
+    second: penguin_idle_no_bg_3
+  - first:
+      213: -6923894811537107780
+    second: penguin_idle_no_bg_4
+  - first:
+      213: -7097907736368798557
+    second: penguin_idle_no_bg_5
+  - first:
+      213: 3598370085668799850
+    second: penguin_idle_no_bg_6
+  - first:
+      213: 5225163651746144542
+    second: penguin_idle_no_bg_7
+  - first:
+      213: -6202739581904954837
+    second: penguin_idle_no_bg_8
+  - first:
+      213: -8182438431571068566
+    second: penguin_idle_no_bg_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +101,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 13
+        width: 78
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc9d98846a8bd410800000000000000
+      internalID: 1502947065051585744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 14
+        width: 76
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade5a8a234ab1ad00800000000000000
+      internalID: 982270991382765274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 13
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c441a0d1200e9150800000000000000
+      internalID: 5881138308626597063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_3
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 13
+        width: 75
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42f0f78b9ea7b70800000000000000
+      internalID: 8897680992438789374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_4
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 12
+        width: 75
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb419207a5269ef90800000000000000
+      internalID: -6923894811537107780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 11
+        width: 73
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ad35258a2f7d90800000000000000
+      internalID: -7097907736368798557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_7
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 12
+        width: 74
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11ac9b38a2838840800000000000000
+      internalID: 5225163651746144542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_8
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 12
+        width: 73
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2adc4ab6317be9a0800000000000000
+      internalID: -6202739581904954837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: penguin_idle_no_bg_9
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 11
+        width: 75
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b3b15993227e80800000000000000
+      internalID: -8182438431571068566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

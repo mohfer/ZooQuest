@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: be5c7f00e97369245804c8cd1a024963
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6460892935816708166
+    second: jerapah_idle_no_bg_0
+  - first:
+      213: -348921272844843875
+    second: jerapah_idle_no_bg_1
+  - first:
+      213: -2196378027205595889
+    second: jerapah_idle_no_bg_2
+  - first:
+      213: -8757909042257102308
+    second: jerapah_idle_no_bg_3
+  - first:
+      213: 4368877170330396789
+    second: jerapah_idle_no_bg_4
+  - first:
+      213: 7374846906442387854
+    second: jerapah_idle_no_bg_5
+  - first:
+      213: -5430552760927326337
+    second: jerapah_idle_no_bg_6
+  - first:
+      213: -2030099082895454905
+    second: jerapah_idle_no_bg_7
+  - first:
+      213: -3430038444313364885
+    second: jerapah_idle_no_bg_8
+  - first:
+      213: -752246502762015116
+    second: jerapah_idle_no_bg_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +101,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 17
+        width: 96
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6408f23d4e3b9a950800000000000000
+      internalID: 6460892935816708166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 94
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94818573f1682bf0800000000000000
+      internalID: -348921272844843875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 17
+        width: 89
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0defe732d5e481e0800000000000000
+      internalID: -2196378027205595889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 17
+        width: 93
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a7511a028a57680800000000000000
+      internalID: -8757909042257102308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 17
+        width: 93
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5786bdc93ae51ac30800000000000000
+      internalID: 4368877170330396789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 18
+        width: 88
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8113631038b85660800000000000000
+      internalID: 7374846906442387854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 17
+        width: 92
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fe8e6490dc2a4b0800000000000000
+      internalID: -5430552760927326337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 17
+        width: 90
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d8b29d3a3a3d3e0800000000000000
+      internalID: -2030099082895454905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_8
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 17
+        width: 94
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66b4c0453e0660d0800000000000000
+      internalID: -3430038444313364885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jerapah_idle_no_bg_9
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 17
+        width: 90
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47617539acb7f85f0800000000000000
+      internalID: -752246502762015116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 57ea0314d58b56a46b35c4675802d30f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8217087558211709891
+    second: beruang_idle_no_bg_0
+  - first:
+      213: 7628938397082814061
+    second: beruang_idle_no_bg_1
+  - first:
+      213: 1197895337958449078
+    second: beruang_idle_no_bg_2
+  - first:
+      213: -6782444088760865336
+    second: beruang_idle_no_bg_3
+  - first:
+      213: -3507692236805389417
+    second: beruang_idle_no_bg_4
+  - first:
+      213: -8147851234248346894
+    second: beruang_idle_no_bg_5
+  - first:
+      213: -3624337920744989707
+    second: beruang_idle_no_bg_6
+  - first:
+      213: -2922230031910446990
+    second: beruang_idle_no_bg_7
+  - first:
+      213: -4991940929940772834
+    second: beruang_idle_no_bg_8
+  - first:
+      213: 3357018357903161422
+    second: beruang_idle_no_bg_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +101,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 23
+        width: 114
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34528cd66a07fd80800000000000000
+      internalID: -8217087558211709891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 23
+        width: 121
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6685736d0f6fd960800000000000000
+      internalID: 7628938397082814061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 23
+        width: 104
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1c119677cf9010800000000000000
+      internalID: 1197895337958449078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 23
+        width: 115
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde574490befd1a0800000000000000
+      internalID: -6782444088760865336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 23
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793c1d3ce7c225fc0800000000000000
+      internalID: -3507692236805389417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 23
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f236ebb8740dee80800000000000000
+      internalID: -8147851234248346894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_6
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 23
+        width: 113
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb54081dd3c3bdc0800000000000000
+      internalID: -3624337920744989707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_7
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 23
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278dff3c4472277d0800000000000000
+      internalID: -2922230031910446990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_8
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 23
+        width: 105
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18a5233c2019bab0800000000000000
+      internalID: -4991940929940772834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beruang_idle_no_bg_9
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 23
+        width: 117
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4878470966869e20800000000000000
+      internalID: 3357018357903161422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

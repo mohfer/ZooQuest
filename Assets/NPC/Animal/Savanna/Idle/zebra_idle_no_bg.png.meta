@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 110ef2a1799fb3c4bb5e1da5504ee2d4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5789407639743452672
+    second: zebra_idle_no_bg_0
+  - first:
+      213: -9136958817104946464
+    second: zebra_idle_no_bg_1
+  - first:
+      213: 5742087505189118052
+    second: zebra_idle_no_bg_3
+  - first:
+      213: -2179777782475274450
+    second: zebra_idle_no_bg_4
+  - first:
+      213: -6302861651992885038
+    second: zebra_idle_no_bg_5
+  - first:
+      213: -6338589299331711955
+    second: zebra_idle_no_bg_6
+  - first:
+      213: -144721851749520343
+    second: zebra_idle_no_bg_7
+  - first:
+      213: -5275726844016020320
+    second: zebra_idle_no_bg_8
+  - first:
+      213: 212177937641047126
+    second: zebra_idle_no_bg_9
+  - first:
+      213: -5810206461605542666
+    second: zebra_idle_no_bg_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +101,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 73
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aa82ddc64e7afa0800000000000000
+      internalID: -5789407639743452672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 29
+        width: 101
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea16139d50033180800000000000000
+      internalID: -9136958817104946464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 28
+        width: 107
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460a100c92effaf40800000000000000
+      internalID: 5742087505189118052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 28
+        width: 92
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27c542e7afdfb1e0800000000000000
+      internalID: -2179777782475274450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 28
+        width: 121
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84884b8bcb788a0800000000000000
+      internalID: -6302861651992885038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_6
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 28
+        width: 104
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cbd349d9ec808a0800000000000000
+      internalID: -6338589299331711955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 28
+        width: 93
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cab3b1e38ddfdf0800000000000000
+      internalID: -144721851749520343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 29
+        width: 82
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4be6a236ad8c6b0800000000000000
+      internalID: -5275726844016020320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_9
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 28
+        width: 101
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654054ac5bec1f200800000000000000
+      internalID: 212177937641047126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zebra_idle_no_bg_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 28
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f48258c1000e5fa0800000000000000
+      internalID: -5810206461605542666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

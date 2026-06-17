@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: e233d8e747365fc44bcf2b2ea0ca3f55
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6706298862243719872
+    second: singa_idle_no_bg_0
+  - first:
+      213: -2534702383081041942
+    second: singa_idle_no_bg_1
+  - first:
+      213: 3779595036483007424
+    second: singa_idle_no_bg_2
+  - first:
+      213: -266703232762585985
+    second: singa_idle_no_bg_3
+  - first:
+      213: -3693099785616040048
+    second: singa_idle_no_bg_5
+  - first:
+      213: -5856360751884170548
+    second: singa_idle_no_bg_6
+  - first:
+      213: -2649571252458048871
+    second: singa_idle_no_bg_7
+  - first:
+      213: 5575843722787673313
+    second: singa_idle_no_bg_8
+  - first:
+      213: 7290289975309042103
+    second: singa_idle_no_bg_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +98,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: singa_idle_no_bg_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0455b5e57b07ee2a0800000000000000
+      internalID: -6706298862243719872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 65
+        width: 86
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4e1dac9de2dcd0800000000000000
+      internalID: -2534702383081041942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 65
+        width: 93
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3366819a1d37430800000000000000
+      internalID: 3779595036483007424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 65
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cdcb6a2da7c4cf0800000000000000
+      internalID: -266703232762585985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 65
+        width: 89
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd846df497fbcc0800000000000000
+      internalID: -3693099785616040048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 65
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca876bace60abea0800000000000000
+      internalID: -5856360751884170548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_7
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 65
+        width: 77
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992b622ebf4da3bd0800000000000000
+      internalID: -2649571252458048871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 65
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4d9d3e250616d40800000000000000
+      internalID: 5575843722787673313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: singa_idle_no_bg_10
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 65
+        width: 88
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b103ef5b105c2560800000000000000
+      internalID: 7290289975309042103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
