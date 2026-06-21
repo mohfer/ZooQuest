@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ddab126962d204d98fdf9055dbe530, type: 3}
+  m_Name: AnimalQuiz_Iced
+  m_EditorClassIdentifier: 
+  levelID: 2
+  levelName: Iced
+  questions:
+  - question: 'Kemampuan unik apa yang dimiliki anjing laut saat tidur?
+
+      A.
+      Tidur sambil menyelam di dalam air
+
+      B. Tidur dengan mata terbuka
+
+      C.
+      Tidur sambil berenang cepat'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: A
+  - question: 'Bagaimana penguin jantan melamar pasangannya?
+
+      A. Menari dan
+      bernyanyi
+
+      B. Memberikan batu kerikil pilihan
+
+      C. Membangun sarang
+      besar'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: B
+  - question: 'Apa warna sebenarnya dari bulu beruang kutub?
+
+      A. Putih bersih
+
+      B.
+      Putih kekuningan
+
+      C. Transparan (tidak berwarna)'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: C

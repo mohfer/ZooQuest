@@ -1,37 +1,22 @@
 fileFormatVersion: 2
-guid: 948234a0dfd11db44b19a7aff647d00d
+guid: 336d5fa344c3bb04ca7bc70bb9315568
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4297603540156916638
-    second: penanya_idle_no_bg_5
+      213: -2442835958931022547
+    second: ui_quis_0
   - first:
-      213: 6373419559160922481
-    second: penanya_idle_no_bg_8
+      213: -4280852807296104020
+    second: ui_quis_1
   - first:
-      213: 6467784903266552840
-    second: penanya_idle_no_bg_9
+      213: 2046015608106541037
+    second: ui_quis_2
   - first:
-      213: -5879832383874106749
-    second: penanya_idle_no_bg_10
+      213: -5697396444443259281
+    second: ui_quis_3
   - first:
-      213: -8137502110486813293
-    second: penanya_idle_no_bg_11
-  - first:
-      213: 6259660701706064546
-    second: penanya_idle_no_bg_19
-  - first:
-      213: 7285557151742269854
-    second: penanya_idle_no_bg_20
-  - first:
-      213: 4537139191093876808
-    second: penanya_idle_no_bg_21
-  - first:
-      213: 7209074102912115816
-    second: penanya_idle_no_bg_24
-  - first:
-      213: 7918339136543907162
-    second: penanya_idle_no_bg_25
+      213: 7282950758798575578
+    second: ui_quis_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: penanya_idle_no_bg_5
+      name: ui_quis_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 202
-        width: 71
-        height: 146
+        x: 250
+        y: 555
+        width: 1349
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26c5c739958db54c0800000000000000
-      internalID: -4297603540156916638
+      spriteID: d2d9d5753ad491ed0800000000000000
+      internalID: -2442835958931022547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: penanya_idle_no_bg_8
+      name: ui_quis_1
       rect:
         serializedVersion: 2
-        x: 154
-        y: 202
-        width: 84
-        height: 146
+        x: 124
+        y: 366
+        width: 300
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 171405c325fe27850800000000000000
-      internalID: 6373419559160922481
+      spriteID: ca9c16d7d0b5794c0800000000000000
+      internalID: -4280852807296104020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: penanya_idle_no_bg_9
+      name: ui_quis_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 202
-        width: 75
-        height: 146
+        x: 504
+        y: 329
+        width: 490
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80c46da0a1032c950800000000000000
-      internalID: 6467784903266552840
+      spriteID: def5816fa58e46c10800000000000000
+      internalID: 2046015608106541037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: penanya_idle_no_bg_10
+      name: ui_quis_3
       rect:
         serializedVersion: 2
-        x: 408
-        y: 202
-        width: 89
-        height: 146
+        x: 1123
+        y: 339
+        width: 561
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38a785c7993a66ea0800000000000000
-      internalID: -5879832383874106749
+      spriteID: f6ec260be18cee0b0800000000000000
+      internalID: -5697396444443259281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: penanya_idle_no_bg_11
+      name: ui_quis_4
       rect:
         serializedVersion: 2
-        x: 533
-        y: 202
-        width: 92
-        height: 146
+        x: 138
+        y: 275
+        width: 51
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,113 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3952171e1f8c11f80800000000000000
-      internalID: -8137502110486813293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: penanya_idle_no_bg_19
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 11
-        width: 91
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a299ab3e38ced650800000000000000
-      internalID: 6259660701706064546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: penanya_idle_no_bg_20
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 11
-        width: 72
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e99976401af7b1560800000000000000
-      internalID: 7285557151742269854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: penanya_idle_no_bg_21
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 11
-        width: 72
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84857a53e0827fe30800000000000000
-      internalID: 4537139191093876808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: penanya_idle_no_bg_24
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 11
-        width: 72
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8646b8783b6cb0460800000000000000
-      internalID: 7209074102912115816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: penanya_idle_no_bg_25
-      rect:
-        serializedVersion: 2
-        x: 551
-        y: 11
-        width: 72
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5dd5c4dd7793ed60800000000000000
-      internalID: 7918339136543907162
+      spriteID: ad7c9ded02d321560800000000000000
+      internalID: 7282950758798575578
       vertices: []
       indices: 
       edges: []

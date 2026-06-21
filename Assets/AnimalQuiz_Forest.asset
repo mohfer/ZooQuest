@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ddab126962d204d98fdf9055dbe530, type: 3}
+  m_Name: AnimalQuiz_Forest
+  m_EditorClassIdentifier: 
+  levelID: 3
+  levelName: Forest
+  questions:
+  - question: 'Bagaimana komodo betina bisa bereproduksi tanpa pejantan?
+
+      A.
+      Melalui proses parthenogenesis
+
+      B. Meminjam sel dari komodo lain
+
+      C.
+      Menggunakan sel telur cadangan'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: A
+  - question: 'Bagaimana monyet berkomunikasi dalam kelompoknya?
+
+      A. Hanya
+      menggunakan suara
+
+      B. Kombinasi suara, ekspresi wajah, dan bahasa tubuh
+
+      C.
+      Hanya menggunakan gerakan ekor'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: B
+  - question: 'Kemampuan unik apa yang dimiliki kakatua terkait musik?
+
+      A.
+      Bisa bernyanyi 100 lagu berbeda
+
+      B. Menari mengikuti ritme musik
+
+      C.
+      Membuat alat musik sendiri'
+    answerA: A
+    answerB: B
+    answerC: C
+    correctAnswer: B
