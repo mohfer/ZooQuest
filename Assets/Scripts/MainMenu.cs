@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour
     // Tombol "Mulai Game" - selalu reset progress
     public void PlayGame()
     {
-        Debug.Log("🎮 Mulai Game - Reset progress");
+        Debug.Log("Mulai Game - Reset progress");
         
         // Reset progress di GameProgressManager
         if (GameProgressManager.Instance != null)
@@ -21,7 +21,7 @@ public class MainMenu : MonoBehaviour
     // Tombol "Keluar"
     public void QuitGame()
     {
-        Debug.Log("🚪 Keluar game...");
+        Debug.Log("Keluar game...");
         
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;

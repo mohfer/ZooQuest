@@ -60,7 +60,7 @@ public class PauseManager : MonoBehaviour
         // Mute audio
         AudioListener.pause = true;
         
-        Debug.Log("⏸️ Game paused");
+        Debug.Log("Game paused");
     }
 
     public void Resume()
@@ -74,12 +74,12 @@ public class PauseManager : MonoBehaviour
         // Unmute audio
         AudioListener.pause = false;
         
-        Debug.Log("▶️ Game resumed");
+        Debug.Log("Game resumed");
     }
 
     public void QuitGame()
     {
-        Debug.Log("🚪 Kembali ke menu utama...");
+        Debug.Log("Kembali ke menu utama...");
         
         // Resume dulu sebelum load scene (penting!)
         Time.timeScale = 1f;

@@ -65,7 +65,9 @@ public class ScenePortal : MonoBehaviour
             }
             else
             {
-                Debug.Log("🔒 Portal terkunci! Selesaikan quiz level sebelumnya terlebih dahulu.");
+                NotificationManager.Instance.ShowNotification(
+                    "Portal terkunci! Selesaikan quiz terlebih dahulu."
+                );
             }
         }
     }

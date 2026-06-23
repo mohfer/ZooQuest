@@ -49,26 +49,29 @@ public class GameProgressManager : MonoBehaviour
     public void CompleteCurrentLevel()
     {
         int nextLevel = currentActiveLevel + 1;
-        
-        Debug.Log($"✅ Level {currentActiveLevel} selesai!");
-        
-        // Unlock level berikutnya (in-memory only)
+
+        Debug.Log($"Level {currentActiveLevel} selesai!");
+
         if (nextLevel == LEVEL_ICED)
         {
             level2Unlocked = true;
-            Debug.Log($"🔓 Level Iced (2) telah dibuka!");
+            Debug.Log($"Level Iced (2) telah dibuka!");
         }
         else if (nextLevel == LEVEL_FOREST)
         {
             level3Unlocked = true;
-            Debug.Log($"🔓 Level Forest (3) telah dibuka!");
+            Debug.Log($"Level Forest (3) telah dibuka!");
         }
 
-        // Set level berikutnya sebagai active
         currentActiveLevel = nextLevel;
-        
-        // Refresh portal di scene
+
         RefreshAllPortals();
+        
+        // Refresh guide text
+        if (GuideManager.Instance != null)
+        {
+            GuideManager.Instance.UpdateGuideText();
+        }
     }
 
     private void RefreshAllPortals()
@@ -78,7 +81,7 @@ public class GameProgressManager : MonoBehaviour
         {
             portal.RefreshUnlockStatus();
         }
-        Debug.Log($"🔄 {portals.Length} portal direfresh");
+        Debug.Log($"{portals.Length} portal direfresh");
     }
 
     public string GetCurrentLevelName()
@@ -98,7 +101,7 @@ public class GameProgressManager : MonoBehaviour
         level2Unlocked = false;
         level3Unlocked = false;
         
-        Debug.Log("🔄 Progress direset ke Level 1");
+        Debug.Log("Progress direset ke Level 1");
     }
 
     // Testing cheat

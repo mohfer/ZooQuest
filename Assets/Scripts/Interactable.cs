@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour
     public AnimalQuizData[] allQuizSets; // GANTI KE AnimalQuizData
 
     private bool playerInRange;
+    private bool isOpen;
     private int currentQuestionIndex = 0;
     private int correctAnswers = 0;
     private int wrongAnswers = 0;
@@ -29,19 +30,42 @@ public class Interactable : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            if (isOpen)
+            {
+                Close();
+                return;
+            }
+
             if (isQuiz)
             {
                 if (currentQuestionIndex == 0)
                 {
                     LoadCurrentQuizSet();
+                    isOpen = true;
                     ShowNextQuestion();
                 }
             }
             else
             {
                 DialogueManager.Instance.Show(title, information, animalImage);
+                isOpen = true;
             }
         }
+    }
+
+    private void Close()
+    {
+        if (isQuiz)
+        {
+            if (QuizManager.Instance != null && QuizManager.Instance.quizPanel != null)
+                QuizManager.Instance.quizPanel.SetActive(false);
+            ResetQuiz();
+        }
+        else
+        {
+            DialogueManager.Instance.Close();
+        }
+        isOpen = false;
     }
 
     private void LoadCurrentQuizSet()
@@ -54,7 +78,7 @@ public class Interactable : MonoBehaviour
 
         int activeLevel = GameProgressManager.Instance.currentActiveLevel;
         
-        foreach (AnimalQuizData quizSet in allQuizSets) // GANTI
+        foreach (AnimalQuizData quizSet in allQuizSets)
         {
             if (quizSet == null)
             {
@@ -65,7 +89,7 @@ public class Interactable : MonoBehaviour
             if (quizSet.levelID == activeLevel)
             {
                 currentQuizSet = quizSet;
-                Debug.Log($"📝 Quiz loaded: {quizSet.levelName}");
+                Debug.Log($"Quiz loaded: {quizSet.levelName}");
                 return;
             }
         }
@@ -80,6 +104,8 @@ public class Interactable : MonoBehaviour
             ShowQuizResults();
             return;
         }
+
+        if (QuizManager.Instance == null) return;
 
         QuizQuestion q = currentQuizSet.questions[currentQuestionIndex]; // GANTI
         QuizManager.Instance.ShowQuiz(
@@ -110,10 +136,10 @@ public class Interactable : MonoBehaviour
     private void ShowQuizResults()
     {
         int total = correctAnswers + wrongAnswers;
-        
+
         if (total == 0)
         {
-            Debug.LogWarning("⚠️ Tidak ada pertanyaan yang dijawab!");
+            Debug.LogWarning("Tidak ada pertanyaan yang dijawab!");
             ResetQuiz();
             return;
         }
@@ -123,20 +149,59 @@ public class Interactable : MonoBehaviour
 
         Debug.Log($"=== HASIL QUIZ {levelName} ===");
         Debug.Log($"Total Pertanyaan: {total}");
-        Debug.Log($"✅ Benar: {correctAnswers}");
-        Debug.Log($"❌ Salah: {wrongAnswers}");
+        Debug.Log($"Benar: {correctAnswers}");
+        Debug.Log($"Salah: {wrongAnswers}");
         Debug.Log($"Nilai: {percentage}%");
 
         if (percentage == 100)
         {
+            string nextLevelName = GetNextLevelName();
+            
+            if (NotificationManager.Instance != null)
+            {
+                NotificationManager.Instance.ShowCorrectNotification(
+                    $"Quiz selesai! {nextLevelName} telah terbuka!"
+                );
+            }
+            
             GameProgressManager.Instance.CompleteCurrentLevel();
+            
+            // Update guide text
+            if (GuideManager.Instance != null)
+            {
+                GuideManager.Instance.UpdateGuideText();
+            }
         }
         else
         {
+            if (NotificationManager.Instance != null)
+            {
+                NotificationManager.Instance.ShowWrongNotification(
+                    $"Nilai {percentage}%. Kumpulkan semua jawaban dengan benar!"
+                );
+            }
+            
             Debug.Log($"Nilai kurang dari 100%. Coba lagi!");
         }
 
         ResetQuiz();
+    }
+
+    private string GetNextLevelName()
+    {
+        int currentLevel = GameProgressManager.Instance.currentActiveLevel;
+        
+        switch (currentLevel)
+        {
+            case 1:
+                return "Iced";
+            case 2:
+                return "Forest";
+            case 3:
+                return "Semua Level";
+            default:
+                return "Level Berikutnya";
+        }
     }
 
     private void ResetQuiz()
@@ -145,6 +210,7 @@ public class Interactable : MonoBehaviour
         correctAnswers = 0;
         wrongAnswers = 0;
         currentQuizSet = null;
+        isOpen = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -162,6 +228,7 @@ public class Interactable : MonoBehaviour
         {
             playerInRange = false;
             prompt.SetActive(false);
+            if (isOpen) Close();
         }
     }
 }

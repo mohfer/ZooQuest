@@ -14,12 +14,13 @@ public class QuizManager : MonoBehaviour
     public Button answerC;
 
     private string correctAnswer;
-    private Interactable currentInteractable; // referensi ke Interactable yang aktif
+    private Interactable currentInteractable;
 
     private void Awake()
     {
         Instance = this;
-        quizPanel.SetActive(false);
+        if (quizPanel != null)
+            quizPanel.SetActive(false);
     }
 
     public void ShowQuiz(string question, string optA, string optB, string optC, string correct, Interactable interactable)
@@ -32,16 +33,27 @@ public class QuizManager : MonoBehaviour
         answerC.GetComponentInChildren<TMP_Text>().text = optC;
 
         correctAnswer = correct;
-        currentInteractable = interactable; // simpan referensi
+        currentInteractable = interactable;
     }
 
     public void CheckAnswer(string selectedAnswer)
     {
         bool isCorrect = (selectedAnswer == correctAnswer);
-
-        // Tidak tampilkan log benar/salah di sini, tunggu sampai akhir
         
         quizPanel.SetActive(false);
+
+        // Tampilkan notifikasi per-soal
+        if (NotificationManager.Instance != null)
+        {
+            if (isCorrect)
+            {
+                NotificationManager.Instance.ShowCorrectNotification("Jawaban benar!");
+            }
+            else
+            {
+                NotificationManager.Instance.ShowWrongNotification("Jawaban salah!");
+            }
+        }
 
         // Beritahu Interactable bahwa user sudah jawab
         if (currentInteractable != null)
