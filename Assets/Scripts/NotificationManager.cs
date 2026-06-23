@@ -38,6 +38,9 @@ public class NotificationManager : MonoBehaviour
 
     public void ShowCorrectNotification(string message)
     {
+        StopAllCoroutines();
+        wrongNotificationPanel.SetActive(false);
+
         correctNotificationText.text = message;
         correctNotificationPanel.SetActive(true);
 
@@ -51,6 +54,9 @@ public class NotificationManager : MonoBehaviour
 
     public void ShowWrongNotification(string message)
     {
+        StopAllCoroutines();
+        correctNotificationPanel.SetActive(false);
+
         wrongNotificationText.text = message;
         wrongNotificationPanel.SetActive(true);
 

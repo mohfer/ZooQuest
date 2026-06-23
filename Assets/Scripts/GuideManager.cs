@@ -14,15 +14,17 @@ public class GuideManager : MonoBehaviour
 
     [Header("Guide Messages")]
     [SerializeField] private string level1Message = "Pergi ke Savanna untuk mendapatkan informasi";
-    [SerializeField] private string level1QuizMessage = "Kembali ke lobby untuk menyelesaikan quiz Savanna";
+    [SerializeField] private string level1ExploreMessage = "Kembali ke lobby untuk menyelesaikan quiz Savanna";
+    [SerializeField] private string level1QuizMessage = "Jawab quiz di Game Master untuk membuka level berikutnya";
     [SerializeField] private string level2Message = "Pergi ke Iced untuk mendapatkan informasi";
-    [SerializeField] private string level2QuizMessage = "Kembali ke lobby untuk menyelesaikan quiz Iced";
+    [SerializeField] private string level2ExploreMessage = "Kembali ke lobby untuk menyelesaikan quiz Iced";
+    [SerializeField] private string level2QuizMessage = "Jawab quiz di Game Master untuk membuka level berikutnya";
     [SerializeField] private string level3Message = "Pergi ke Forest untuk mendapatkan informasi";
-    [SerializeField] private string level3QuizMessage = "Kembali ke lobby untuk menyelesaikan quiz Forest";
+    [SerializeField] private string level3ExploreMessage = "Kembali ke lobby untuk menyelesaikan quiz Forest";
+    [SerializeField] private string level3QuizMessage = "Jawab quiz di Game Master untuk membuka level berikutnya";
     [SerializeField] private string completedMessage = "Selamat! Semua level telah diselesaikan";
 
     private string lastMessage;
-
     private AudioSource audioSource;
 
     private void Awake()
@@ -41,11 +43,6 @@ public class GuideManager : MonoBehaviour
     }
 
     private void Start()
-    {
-        UpdateGuideText();
-    }
-
-    private void OnEnable()
     {
         UpdateGuideText();
     }
@@ -87,33 +84,42 @@ public class GuideManager : MonoBehaviour
             case GameProgressManager.LEVEL_SAVANNA:
                 if (sceneName == "Lobby")
                 {
+                    if (PlayerPrefs.GetInt("Level1Visited", 0) == 1)
+                        return level1QuizMessage;
                     return level1Message;
                 }
                 else if (sceneName == "Savanna")
                 {
-                    return level1QuizMessage;
+                    PlayerPrefs.SetInt("Level1Visited", 1);
+                    return level1ExploreMessage;
                 }
                 return level1Message;
 
             case GameProgressManager.LEVEL_ICED:
                 if (sceneName == "Lobby")
                 {
+                    if (PlayerPrefs.GetInt("Level2Visited", 0) == 1)
+                        return level2QuizMessage;
                     return level2Message;
                 }
                 else if (sceneName == "Iced")
                 {
-                    return level2QuizMessage;
+                    PlayerPrefs.SetInt("Level2Visited", 1);
+                    return level2ExploreMessage;
                 }
                 return level2Message;
 
             case GameProgressManager.LEVEL_FOREST:
                 if (sceneName == "Lobby")
                 {
+                    if (PlayerPrefs.GetInt("Level3Visited", 0) == 1)
+                        return level3QuizMessage;
                     return level3Message;
                 }
                 else if (sceneName == "Forest")
                 {
-                    return level3QuizMessage;
+                    PlayerPrefs.SetInt("Level3Visited", 1);
+                    return level3ExploreMessage;
                 }
                 return level3Message;
 

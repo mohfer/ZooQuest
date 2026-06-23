@@ -21,14 +21,38 @@ public class GameProgressManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            
-            // Selalu mulai dari level 1, tidak load dari PlayerPrefs
-            ResetProgress();
         }
         else
         {
             Destroy(gameObject);
         }
+    }
+
+    public void LoadProgress()
+    {
+        SaveData data = SaveManager.Instance.Load();
+        if (data != null && data.hasSaveData)
+        {
+            currentActiveLevel = data.currentActiveLevel;
+            level2Unlocked = data.level2Unlocked;
+            level3Unlocked = data.level3Unlocked;
+            Debug.Log($"Progress loaded: Level {currentActiveLevel}");
+        }
+        else
+        {
+            ResetProgress();
+        }
+    }
+
+    public void SaveProgress()
+    {
+        SaveData data = new SaveData
+        {
+            currentActiveLevel = currentActiveLevel,
+            level2Unlocked = level2Unlocked,
+            level3Unlocked = level3Unlocked
+        };
+        SaveManager.Instance.Save(data);
     }
 
     public bool IsLevelUnlocked(int levelID)
@@ -72,6 +96,8 @@ public class GameProgressManager : MonoBehaviour
         {
             GuideManager.Instance.UpdateGuideText();
         }
+
+        SaveProgress();
     }
 
     private void RefreshAllPortals()
@@ -100,6 +126,12 @@ public class GameProgressManager : MonoBehaviour
         currentActiveLevel = 1;
         level2Unlocked = false;
         level3Unlocked = false;
+        
+        PlayerPrefs.DeleteKey("Level1Visited");
+        PlayerPrefs.DeleteKey("Level2Visited");
+        PlayerPrefs.DeleteKey("Level3Visited");
+        
+        SaveProgress();
         
         Debug.Log("Progress direset ke Level 1");
     }

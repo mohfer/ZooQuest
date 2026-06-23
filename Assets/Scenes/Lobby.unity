@@ -377,8 +377,8 @@ MonoBehaviour:
   wrongNotificationPanel: {fileID: 717275959}
   wrongNotificationText: {fileID: 1639210099}
   wrongSound: {fileID: 8300000, guid: eced792388f3d7f44b31cfcec67cd5a4, type: 3}
-  displayDuration: 3
-  soundVolume: 200
+  displayDuration: 2
+  soundVolume: 1
 --- !u!4 &68537213
 Transform:
   m_ObjectHideFlags: 0
@@ -1243,7 +1243,7 @@ RectTransform:
   m_GameObject: {fileID: 454825207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1187616462}
   m_Father: {fileID: 1672212030}
@@ -1251,7 +1251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 430.2, y: 185.1}
+  m_AnchoredPosition: {x: 180.7, y: 117}
   m_SizeDelta: {x: 490, y: 137}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454825209
@@ -1621,7 +1621,7 @@ RectTransform:
   m_GameObject: {fileID: 717275959}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1141140449}
   m_Father: {fileID: 966937898}
@@ -1629,7 +1629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717275961
@@ -1646,7 +1646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 3.8
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -4514,7 +4514,7 @@ RectTransform:
   m_GameObject: {fileID: 1424289324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 1522306559}
   - {fileID: 1244248494}
@@ -4686,7 +4686,7 @@ RectTransform:
   m_GameObject: {fileID: 1506912896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children:
   - {fileID: 2103868106}
   - {fileID: 766512880}
@@ -5280,7 +5280,7 @@ RectTransform:
   m_GameObject: {fileID: 1672212029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 454825208}
   m_Father: {fileID: 966937898}
@@ -5288,7 +5288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 122, y: 82.3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1672212031
@@ -5337,7 +5337,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1677056255}
-  - component: {fileID: 1677056257}
   - component: {fileID: 1677056256}
   m_Layer: 0
   m_Name: PauseManager
@@ -5373,23 +5372,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 1424289324}
---- !u!114 &1677056257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1677056254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e054ae549e9bbf84b8ccd53df201ea87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  quizPanel: {fileID: 1506912896}
-  questionText: {fileID: 766512878}
-  answerA: {fileID: 1413033851}
-  answerB: {fileID: 1901369979}
-  answerC: {fileID: 1380574748}
 --- !u!1 &1811403154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5808,14 +5790,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guidePanel: {fileID: 1672212029}
   guideText: {fileID: 1187616463}
-  audioSource: {fileID: 0}
   guideChangedSound: {fileID: 8300000, guid: bece5b55ea35b8d4ca1ff871c27151d4, type: 3}
   level1Message: Pergi ke Savanna untuk mendapatkan informasi
-  level1QuizMessage: Kembali ke lobby untuk menyelesaikan quiz Savanna
+  level1ExploreMessage: Kembali ke lobby untuk menyelesaikan quiz Savanna
+  level1QuizMessage: Jawab quiz di Game Master untuk membuka level berikutnya
   level2Message: Pergi ke Iced untuk mendapatkan informasi
-  level2QuizMessage: Kembali ke lobby untuk menyelesaikan quiz Iced
+  level2ExploreMessage: Kembali ke lobby untuk menyelesaikan quiz Iced
+  level2QuizMessage: Jawab quiz di Game Master untuk membuka level berikutnya
   level3Message: Pergi ke Forest untuk mendapatkan informasi
-  level3QuizMessage: Kembali ke lobby untuk menyelesaikan quiz Forest
+  level3ExploreMessage: Kembali ke lobby untuk menyelesaikan quiz Forest
+  level3QuizMessage: Jawab quiz di Game Master untuk membuka level berikutnya
   completedMessage: Selamat! Semua level telah diselesaikan
 --- !u!4 &1957343836
 Transform:
@@ -5964,7 +5948,7 @@ RectTransform:
   m_GameObject: {fileID: 2005826650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1974185274}
   m_Father: {fileID: 966937898}
@@ -5972,7 +5956,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005826652
@@ -5989,7 +5973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

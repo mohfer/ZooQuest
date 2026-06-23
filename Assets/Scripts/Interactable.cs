@@ -97,11 +97,26 @@ public class Interactable : MonoBehaviour
         Debug.LogError($"Quiz set untuk level {activeLevel} tidak ditemukan!");
     }
 
+    public void OnAnswered(bool isCorrect)
+    {
+        if (isCorrect)
+        {
+            correctAnswers++;
+        }
+        else
+        {
+            wrongAnswers++;
+        }
+
+        currentQuestionIndex++;
+        ShowNextQuestion();
+    }
+
     public void ShowNextQuestion()
     {
         if (currentQuizSet == null || currentQuestionIndex >= currentQuizSet.questions.Length)
         {
-            ShowQuizResults();
+            StartCoroutine(ShowResultsDelayed());
             return;
         }
 
@@ -118,19 +133,10 @@ public class Interactable : MonoBehaviour
         );
     }
 
-    public void OnAnswered(bool isCorrect)
+    private System.Collections.IEnumerator ShowResultsDelayed()
     {
-        if (isCorrect)
-        {
-            correctAnswers++;
-        }
-        else
-        {
-            wrongAnswers++;
-        }
-
-        currentQuestionIndex++;
-        ShowNextQuestion();
+        yield return new WaitForSeconds(1.5f);
+        ShowQuizResults();
     }
 
     private void ShowQuizResults()
