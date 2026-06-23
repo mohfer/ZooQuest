@@ -14,7 +14,7 @@ ZooQuest is set in a zoo with a central Lobby hub connecting three distinct biom
 |------|---------|
 | **Lobby** | NPCs (Game Master, Visitors) |
 | **Savanna** | Elephant, Giraffe, Lion, Zebra |
-| **Arctic** | Bear, Penguin, Husky |
+| **Arctic** | Polar Bear, Penguin, Seal |
 | **Forest** | Blue Bird, Red Bird, Komodo Dragon, Monkey |
 
 ## Features
